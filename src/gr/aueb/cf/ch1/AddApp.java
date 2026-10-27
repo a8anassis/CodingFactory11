@@ -18,5 +18,6 @@ public class AddApp {
 
         // Εκτύπωση αποτελέσματος
         System.out.println("Το αποτέλεσμα είναι: " + result);
+        System.out.printf("Το αποτέλεσμα είναι %d\n", result);
     }
 }
