@@ -11,7 +11,7 @@ public class AddScannerApp {
     public static void main(String[] args) {
 
         // Δήλωση και Αρχικοποίηση μεταβλητών
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);   // stdin
         int num1 = 0;
         int num2 = 0;
         int sum = 0;
@@ -25,6 +25,6 @@ public class AddScannerApp {
         sum = num1 + num2;
 
         // Εκτύπωση αποτελεσμάτων
-        System.out.printf("Το άθροισμα των %d και %d είναι %d\n",  num1, num2, sum);
+        System.out.printf("Το άθροισμα των %d και %d είναι %d\n", num1, num2, sum);
     }
 }
