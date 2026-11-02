@@ -29,7 +29,6 @@ public class Expressions2 {
         times++;
         counter = times;
 
-
         leftDigit = num3 / 10;          // η διαίρεση ακεραίων δίνει ακέραιο, απαγορεύεται η διαίρεση με το 0
         rightDigit = num3 % 10;
 
