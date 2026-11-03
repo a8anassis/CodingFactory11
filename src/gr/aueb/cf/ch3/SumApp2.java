@@ -29,6 +29,5 @@ public class SumApp2 {
 
         // Εκτύπωση αποτελεσμάτων
         System.out.println("Το άθροισμα είναι: " + sum);
-
     }
 }
