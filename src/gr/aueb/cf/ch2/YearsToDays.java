@@ -1,5 +1,6 @@
 package gr.aueb.cf.ch2;
 
+
 import java.util.Scanner;
 
 /**
@@ -25,6 +26,7 @@ public class YearsToDays {
         ageInDays = inputAgeInYears * DAYS_IN_YEAR;
 
         // Εκτύπωση των αποτελεσμάτων
+        System.out.println("Ηλικία σε έτη=" + inputAgeInYears + " Ηλικία σε ημέρες="  + ageInDays);
         System.out.printf("Ηλικία σε έτη=%d, Ηλικία σε ημέρες=%d\n", inputAgeInYears, ageInDays);
     }
 }
