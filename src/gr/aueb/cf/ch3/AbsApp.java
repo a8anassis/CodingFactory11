@@ -20,6 +20,8 @@ public class AbsApp {
         System.out.print("Εισάγετε ένα ακέραιο: ");
         num = sc.nextInt();
 
+        abs = num >= 0 ? num : -num;
+
         System.out.println("Το απόλυτο του " + num + " είναι: " + abs);
     }
 }
