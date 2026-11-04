@@ -12,12 +12,16 @@ package gr.aueb.cf.solutions.ch1;
 public class SumApp {
 
     public static void main(String[] args) {
+
+        // Δήλωση και αρχικοποίηση μεταβλητών
         int num1 = 19;
         int num2 = 30;
         int sum = 0;
 
+        // Επεξεργασία δεδομένων
         sum = num1 + num2;
 
+        // Εκτύπωση αποτελεσμάτων
         System.out.println("Το αποτέλεσμα της πρόσθεσης είναι ίσο με " + sum);
     }
 }
