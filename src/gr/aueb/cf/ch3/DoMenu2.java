@@ -19,6 +19,7 @@ public class DoMenu2 {
             System.out.println("3. Διαγραφή προϊόντος");
             System.out.println("4. Αναζήτηση προϊόντος");
             System.out.println("5. Έξοδος");
+
             choice = sc.nextInt();
 
             if (choice == 5) {
