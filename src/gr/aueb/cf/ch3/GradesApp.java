@@ -30,7 +30,7 @@ public class GradesApp {
         int average = 0;
 
         while (true) {
-            System.out.println("Εισάγετε το άθροισμα των βαθμών (0 για έξοδο)");
+            System.out.println("Εισάγετε το άθροισμα των βαθμών (-1 για έξοδο)");
             totalMarks = sc.nextInt();
 
             if  (totalMarks == -1) {
