@@ -14,5 +14,7 @@ public class RoundingAndBigDecimal {
         BigDecimal result = BigDecimal.ZERO;
 
         result = bigNum.divide(divisor, 2, RoundingMode.HALF_UP);
+
+        System.out.println("Το αποτέλεσμα είναι: " + result);
     }
 }
