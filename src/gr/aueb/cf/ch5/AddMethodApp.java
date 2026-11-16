@@ -11,18 +11,13 @@ public class AddMethodApp {
         int num2 = 20;
         int sum = 0;
 
+        // Delegate
         sum = add(num1, num2);
 
         System.out.println("Το άθροισμα είναι: " + sum);
     }
 
     public static int add(int a, int b) {
-//        int sum = 0;
-//
-//        sum = a + b;
-//
-//        return sum;
-
         return a + b;
     }
 }
