@@ -15,9 +15,10 @@ public class ProjectManager {
         int employees = 0;
         int hoursPerEmployee = 0;
         int remainingHours = 0;
+        int totalHours = 0;
 
         System.out.print("Δώστε συνολικές ώρες εργασίας: ");
-        int totalHours = scanner.nextInt();
+        totalHours = scanner.nextInt();
 
         System.out.print("Δώστε αριθμό εργαζομένων: ");
         employees = scanner.nextInt();
