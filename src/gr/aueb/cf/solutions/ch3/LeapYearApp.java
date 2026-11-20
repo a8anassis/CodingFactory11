@@ -17,9 +17,9 @@ public class LeapYearApp {
         System.out.println("Please insert the year");
         year = in.nextInt();
 
-        /*if (year % 400 == 0 || (year % 4 == 0 && year % 100 !                                                                                                                 = 0)) {
-            isLeap = true;
-        }*/
+//        if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+//            isLeap = true;
+//        }
 
         isLeap = year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
 
