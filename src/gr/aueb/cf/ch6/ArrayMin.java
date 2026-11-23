@@ -6,7 +6,10 @@ package gr.aueb.cf.ch6;
 public class ArrayMin {
 
     public static void main(String[] args) {
+        int[] arr = {12, 2, 3};
+        int minPosition = getMinPosition(arr);
 
+        System.out.printf("Το min είναι %d στη θέση %d", arr[minPosition], (minPosition + 1));
     }
 
     public static int getMinPosition(int[] arr) {
