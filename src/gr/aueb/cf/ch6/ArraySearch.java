@@ -25,7 +25,6 @@ public class ArraySearch {
         }
     }
 
-
     public static int getPosition(int[] arr, int value) {
         if (arr == null) return -1;
         int positionToReturn = -1;
@@ -45,7 +44,7 @@ public class ArraySearch {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == value) {
-                return i;
+                return i;               // early exit
             }
         }
 
