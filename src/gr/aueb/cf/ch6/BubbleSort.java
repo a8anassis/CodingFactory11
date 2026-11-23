@@ -3,7 +3,12 @@ package gr.aueb.cf.ch6;
 public class BubbleSort {
 
     public static void main(String[] args) {
+        int[] arr = new int[] { 8, 8, 9, 6, 10, 8, 3};
+        int[] sorted = bubbleSort(arr);
 
+        for (int num : sorted) {
+            System.out.print(num + " ");
+        }
     }
 
     public static int[] bubbleSort(int[] arr) {
