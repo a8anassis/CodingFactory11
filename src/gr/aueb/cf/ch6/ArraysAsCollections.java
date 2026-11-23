@@ -50,6 +50,25 @@ public class ArraysAsCollections {
 
     public static double avg(int[] arr) {
         if (arr == null || arr.length == 0) return 0;
-        return  sum(arr) / (double) arr.length;
+        return sum(arr) / (double) arr.length;
+    }
+
+    public static boolean areAllEven(int[] arr) {
+        if (arr == null) return false;
+
+        for (int num : arr) {
+            if (num % 2 == 0) return false;     // early exit
+        }
+        return true;
+    }
+
+    public static boolean isAnyEven(int[] arr) {
+        if (arr == null) return false;
+
+        for (int num : arr) {
+            if (num % 2 == 0) return true;  // early exit
+        }
+        return false;
+
     }
 }
