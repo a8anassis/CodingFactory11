@@ -11,7 +11,7 @@ public class ArrayTraverse {
 
         // Traverse the array using a for loop
         for (int i = 0; i < scores.length; i++) {
-            System.out.print(scores[i] + " ");
+            System.out.print(scores[i] + " ");  // IndexOutOfBoundsException
         }
 
         System.out.println();
