@@ -6,6 +6,15 @@ package gr.aueb.cf.ch6;
 public class BinarySearch {
 
     public static void main(String[] args) {
+        int[] arr = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int position = binarySearch(arr, 8, 0, arr.length - 1);
+
+        if (position == -1) {
+            System.out.println("-1");
+        } else  {
+            System.out.println("Βρέθηκε στη θέση: " + (position + 1));
+        }
+
 
     }
 
